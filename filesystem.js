@@ -25,8 +25,8 @@ async function fileSystemFeatures() {
         console.log('File has been sucessfuly renamed.');
     
 // Deleting a file
-        await fs.unlink('fileX.txt') 
-        console.log('File has been sucessfully deleted.');
+        //await fs.unlink('fileX.txt') 
+        //console.log('File has been sucessfully deleted.');
 
     }catch (err){
         console.log('Error:', err)
