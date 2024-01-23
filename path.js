@@ -1,8 +1,8 @@
-//The node path module provides utilities for working with file and directory paths. Commonly used to check of paths are absolute or relative, to parse a path string into an object, to extract information from file names and to constructt file paths.
+/* The node path module provides utilities for working with file and directory paths. Commonly used to check of paths are absolute or relative, to parse a path string into an object, to extract information from file names and to construct file paths.*/
 
-var path = require('path');
+const path = require('path');
 
-// The path.basename() method returns the last portion of a path
+// The path.basename() method returns the last portion of a path.
 
 console.log(path.basename('/Users/keyinstudent/Desktop/Advanced JavaScript/QAP1/QAP1-Full-Stack-Javascript/path.js'));
 

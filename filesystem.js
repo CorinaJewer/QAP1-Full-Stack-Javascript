@@ -1,6 +1,6 @@
 //The Node.js file system module allows you to work with the file system on your computer performing such actions as creating, updating, reading, renaming, and deleting files.
 
-var fs = require('fs').promises;
+const fs = require('fs').promises;
 
 async function fileSystemFeatures() {
     try {
@@ -10,7 +10,7 @@ async function fileSystemFeatures() {
         console.log('File has been sucessfully saved.');
     
 // Appending to a file
-        await fs.appendFile('file.txt', 'The appendFile method appends the specified content to the file')
+        await fs.appendFile('file.txt', 'The appendFile method appends the specified content to the file.')
         console.log('File has been sucessfully updated.');
 
 // Reading a File 
