@@ -1,9 +1,11 @@
-var express = require('express');
-var router = express.Router();
+var express = require('express'); // inport express framework
+var router = express.Router();  
+// creates an instance of express router
 
-/* GET home page. */
+// HTTP GET method at the root path ("/")
 router.get('/', (req, res, next) => {
-  res.render('index', { title: "Corina's First Express App" });
+  console.log('Index page requested')
+  res.render('index', { title: "Corina's First Express App" }); // renders index view, passes in a title
 });
 
 
